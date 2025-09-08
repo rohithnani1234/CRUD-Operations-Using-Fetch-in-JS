@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "id": "4d1f",
+      "todo": "Java script",
+      "completed": true
+    },
+    {
+      "id": "ac65",
+      "todo": "C#",
+      "completed": false
+    },
+    {
+      "id": "f59b",
+      "todo": "Java",
+      "completed": true
+    },
+    {
+      "id": "3bea",
+      "todo": "python",
+      "completed": true
+    }
+  ]
+}

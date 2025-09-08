@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD Operations</title>
+</head>
+<body>
+  <div>
+    <input type="text" id="todoId" placeholder="Enter Todo ID">
+    <input type="text" id="todoText" placeholder="Enter Todo Text">
+    <input type="checkbox" id="todoCompleted"> Completed
+  </div>
+
+  <button onclick="handleRequest('GET')">GET Todos</button>
+  <button onclick="handleRequest('POST')">POST Todo</button>
+  <button onclick="handleRequest('PUT')">PUT Todo</button>
+  <button onclick="handleRequest('PATCH')">PATCH Todo</button>
+  <button onclick="handleRequest('DELETE')">DELETE Todo</button>
+
+  <pre id="output"></pre>
+
+  <script src="./index.js"></script>
+</body>
+</html>
